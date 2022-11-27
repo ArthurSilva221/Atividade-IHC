@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>GRUPO 5 - Análise gráfica de impostos e valores de combustíveis</title>
+
+
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/carousel.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#!">IHC - GRUPO 5</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="infos.html">Dados</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">Sobre Nós</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Contato.html">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="py-5">
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <h2 style="color: black;">Introdução aos dados</h2>
+                </div>
+            </div>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img class="first-slide" src="img/icms.png" alt="First slide">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <p class="mb-0" style="text-align: center; color: black;">Gráfico do ICMS de arrecadação segundo semestre de 2021 e primeiro semestre 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="second-slide" src="img/ipca.png" alt="Second slide">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <p class="mb-0" style="text-align: center; color: black;">Valor e acumulo de IPCA 06-2021 á 06-2022 </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img class="second-slide" src="img/ipca_com.png" alt="Third slide">
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <p class="mb-0" style="text-align: center; color: black;">IPCA aprofundado</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <p class="lead">O conjunto de dados do Ipeadata é fornecido pelo Instituto de Pesquisa Econômica Aplicada e nele são refletidas as informações referentes a temas como a distribuição de renda, pobreza, educação, saúde, previdência social e segurança pública (IPEA, 2022). O conteúdo armazenado no website provém de diversas fontes confiáveis, como o ministério da economia, subdividido em três grandes áreas: macroeconômico (dados relacionados à economia nacional), regional (dados referentes às regiões, estados e municípios) e social (dados envolvendo temas relacionados à sociedade, como educação, emprego, renda per capita, etc). Para a realização da pesquisa, serão utilizados dados majoritariamente contidos na área macroeconômica, como gráficos e dados referentes às diversas taxas, como impostos, impostos inflacionários e impostos sobre a circulação de mercadorias.
+                    </p>
+
+                    <p class="lead">O Índice Nacional de Preços ao Consumidor Amplo (IPCA) é um dado fornecido pelo Instituto Brasileiro de Geografia e Estatística (IBGE) e tem o objetivo de medir a inflação de um conjunto de produtos e serviços comercializados no varejo, referentes ao consumo pessoal das famílias.'' (IBGE, 2022). A plataforma Sidra (Sistema IBGE de Recuperação Automática), na qual as informações estão armazenadas, possui opções para a disposição da variação de preço (mensal, acumulada no ano, etc), e contém diversos produtos diferentes (alimentos, materiais de limpeza e de construção, combustível doméstico, condimentos, etc), divididos em “geral”, “grupo”, “subgrupo”, “item” e “subitem”, que podem ser selecionados pelo usuário na visualização, a qual é feita por meio de uma tabela gerada ou pelo download os dados selecionados.
+                    </p>
+                </div>
+            </div>
+
+            <div class="container my-5">
+                <div class="row justify-content-center">
+                    <h2> Historiograma separado por Região </h2>
+                </div>
+                <img src="img/Histogramas_CA.png" class="img-fluid" alt="Imagem responsiva" style = "width: 100%">
+                <p class="mb-0" style="text-align: center ">Historograma por Região.</p>
+                <br>
+                <div class="row justify-content-center">
+                    <p class="lead">AO Portal Brasileiro de Dados Abertos é uma plataforma que permite a visualização e o uso de informações públicas abertas à população, ou seja, as quais não possuem nenhum tipo de restrição de acesso (Portal Brasileiro de Dados Abertos, 2022). Dentre os diversos “datasets” disponibilizados pelo website, o conjunto de dados do preço dos combustíveis automotivos foi escolhido para a realização da pesquisa. O dado é disposto pela Agência Nacional do Petróleo e contém informações a respeito do valor do combustível automotivo e do gás liquefeito de petróleo, no período de 2004 a 2022, divididos em arquivos “.csv” referentes a cada semestre
+                        Acima alguns histogramas contendo as frequências dos preços dos combustíveis automotivos durante o período estudado, divididos por semestre e região.
+                    </p>
+                </div>
+
+                <div class="row justify-content-center">
+                    <p class="lead">
+                    </p>
+                </div>
+            </div>
+        </section>
+		<script src="js/jquery.min.js"></script>		
+		<script src="js/bootstrap.min.js"></script>
+    </body>
+
+     <!-- Bootstrap core JS-->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+     <!-- Core theme JS-->
+     <script src="js/scripts.js"></script>
+
+    <!-- Footer-->
+    <footer class="py-5 bg-dark">
+        <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2022</p></div>
+    </footer>
+</html>
